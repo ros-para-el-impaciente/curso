@@ -10565,10 +10565,18 @@ body,
 html {
   width: 100%;
   height: 100%;
+  /* background: url("../img/Poster_Curso.png");  
+  background-repeat: no-repeat;
+  background-size: cover; */
+  
 }
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+}
+
+.text-white-95 {
+  color: rgba(255, 255, 255, 0.95);
 }
 
 hr.divider {
@@ -10669,15 +10677,18 @@ hr.light {
   }
 }
 
-header.masthead {
+header.masthead {  
   padding-top: 10rem;
-  padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead.jpg");
+  padding-bottom: calc(10rem - 72px);  
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/Poster_Curso.png");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/Poster_Curso.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+  background-attachment: scroll;  
+  background-size: 100% 100%;
+  
+  
+  
 }
 
 header.masthead h1 {
