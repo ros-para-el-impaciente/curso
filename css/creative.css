@@ -2835,6 +2835,12 @@ fieldset:disabled a.btn {
   border-color: #f8f9fa;
 }
 
+.btn-light1 {
+  color: #f8f9fa;
+  background-color: #0a0a0a;
+  border-color: #0a0a0a;
+}
+
 .btn-light:hover {
   color: #212529;
   background-color: #e2e6ea;
