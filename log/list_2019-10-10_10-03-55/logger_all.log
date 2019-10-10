@@ -1,0 +1,362 @@
+[0.874s] DEBUG:colcon:Command line arguments: ['/home/luis/.local/bin/colcon', 'list', '-p', '--base-paths', '/home/luis/web_curso_ros']
+[0.874s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['/home/luis/web_curso_ros'], ignore_user_meta=False, log_base='log', log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fafc94710b8>>, metas='./colcon.meta', names_only=False, packages_above=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_by_dep=None, packages_select_regex=None, packages_skip=None, packages_skip_by_dep=None, packages_skip_regex=None, packages_start=None, packages_up_to=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fafc94710b8>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fafc8cbd9e8>)
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.949s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/luis/web_curso_ros'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros) by extension 'ignore'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros) by extension 'ignore_ament_install'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros) by extensions ['colcon_pkg']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros) by extension 'colcon_pkg'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros) by extensions ['colcon_meta']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros) by extension 'colcon_meta'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros) by extensions ['ros']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros) by extension 'ros'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros) by extensions ['cmake', 'python']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros) by extension 'cmake'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros) by extension 'python'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros) by extensions ['python_setup_py']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros) by extension 'python_setup_py'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/css) by extensions ['ignore', 'ignore_ament_install']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/css) by extension 'ignore'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/css) by extension 'ignore_ament_install'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/css) by extensions ['colcon_pkg']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/css) by extension 'colcon_pkg'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/css) by extensions ['colcon_meta']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/css) by extension 'colcon_meta'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/css) by extensions ['ros']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/css) by extension 'ros'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/css) by extensions ['cmake', 'python']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/css) by extension 'cmake'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/css) by extension 'python'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/css) by extensions ['python_setup_py']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/css) by extension 'python_setup_py'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img) by extensions ['ignore', 'ignore_ament_install']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img) by extension 'ignore'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img) by extension 'ignore_ament_install'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img) by extensions ['colcon_pkg']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img) by extension 'colcon_pkg'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img) by extensions ['colcon_meta']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img) by extension 'colcon_meta'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img) by extensions ['ros']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img) by extension 'ros'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img) by extensions ['cmake', 'python']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img) by extension 'cmake'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img) by extension 'python'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img) by extensions ['python_setup_py']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img) by extension 'python_setup_py'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio) by extensions ['ignore', 'ignore_ament_install']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio) by extension 'ignore'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio) by extension 'ignore_ament_install'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio) by extensions ['colcon_pkg']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio) by extension 'colcon_pkg'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio) by extensions ['colcon_meta']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio) by extension 'colcon_meta'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio) by extensions ['ros']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio) by extension 'ros'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio) by extensions ['cmake', 'python']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio) by extension 'cmake'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio) by extension 'python'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio) by extensions ['python_setup_py']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio) by extension 'python_setup_py'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/fullsize) by extensions ['ignore', 'ignore_ament_install']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/fullsize) by extension 'ignore'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/fullsize) by extension 'ignore_ament_install'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/fullsize) by extensions ['colcon_pkg']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/fullsize) by extension 'colcon_pkg'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/fullsize) by extensions ['colcon_meta']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/fullsize) by extension 'colcon_meta'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/fullsize) by extensions ['ros']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/fullsize) by extension 'ros'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/fullsize) by extensions ['cmake', 'python']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/fullsize) by extension 'cmake'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/fullsize) by extension 'python'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/fullsize) by extensions ['python_setup_py']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/fullsize) by extension 'python_setup_py'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/thumbnails) by extension 'ignore'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/thumbnails) by extension 'ignore_ament_install'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/thumbnails) by extensions ['colcon_pkg']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/thumbnails) by extension 'colcon_pkg'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/thumbnails) by extensions ['colcon_meta']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/thumbnails) by extension 'colcon_meta'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/thumbnails) by extensions ['ros']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/thumbnails) by extension 'ros'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/thumbnails) by extensions ['cmake', 'python']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/thumbnails) by extension 'cmake'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/thumbnails) by extension 'python'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/thumbnails) by extensions ['python_setup_py']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/img/portfolio/thumbnails) by extension 'python_setup_py'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/js) by extensions ['ignore', 'ignore_ament_install']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/js) by extension 'ignore'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/js) by extension 'ignore_ament_install'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/js) by extensions ['colcon_pkg']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/js) by extension 'colcon_pkg'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/js) by extensions ['colcon_meta']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/js) by extension 'colcon_meta'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/js) by extensions ['ros']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/js) by extension 'ros'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/js) by extensions ['cmake', 'python']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/js) by extension 'cmake'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/js) by extension 'python'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/js) by extensions ['python_setup_py']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/js) by extension 'python_setup_py'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/log) by extensions ['ignore', 'ignore_ament_install']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/log) by extension 'ignore'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/log) ignored
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/scss) by extensions ['ignore', 'ignore_ament_install']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/scss) by extension 'ignore'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/scss) by extension 'ignore_ament_install'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/scss) by extensions ['colcon_pkg']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/scss) by extension 'colcon_pkg'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/scss) by extensions ['colcon_meta']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/scss) by extension 'colcon_meta'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/scss) by extensions ['ros']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/scss) by extension 'ros'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/scss) by extensions ['cmake', 'python']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/scss) by extension 'cmake'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/scss) by extension 'python'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/scss) by extensions ['python_setup_py']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/scss) by extension 'python_setup_py'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor) by extension 'ignore_ament_install'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor) by extensions ['colcon_pkg']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor) by extension 'colcon_pkg'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor) by extensions ['colcon_meta']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor) by extension 'colcon_meta'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor) by extensions ['ros']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor) by extension 'ros'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor) by extensions ['cmake', 'python']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor) by extension 'cmake'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor) by extension 'python'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor) by extensions ['python_setup_py']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor) by extension 'python_setup_py'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap) by extensions ['ignore', 'ignore_ament_install']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap) by extension 'ignore'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap) by extension 'ignore_ament_install'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap) by extensions ['colcon_pkg']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap) by extension 'colcon_pkg'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap) by extensions ['colcon_meta']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap) by extension 'colcon_meta'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap) by extensions ['ros']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap) by extension 'ros'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap) by extensions ['cmake', 'python']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap) by extension 'cmake'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap) by extension 'python'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap) by extensions ['python_setup_py']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap) by extension 'python_setup_py'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap/js) by extensions ['ignore', 'ignore_ament_install']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap/js) by extension 'ignore'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap/js) by extension 'ignore_ament_install'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap/js) by extensions ['colcon_pkg']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap/js) by extension 'colcon_pkg'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap/js) by extensions ['colcon_meta']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap/js) by extension 'colcon_meta'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap/js) by extensions ['ros']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap/js) by extension 'ros'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap/js) by extensions ['cmake', 'python']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap/js) by extension 'cmake'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap/js) by extension 'python'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap/js) by extensions ['python_setup_py']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/bootstrap/js) by extension 'python_setup_py'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free) by extensions ['ignore', 'ignore_ament_install']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free) by extension 'ignore'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free) by extension 'ignore_ament_install'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free) by extensions ['colcon_pkg']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free) by extension 'colcon_pkg'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free) by extensions ['colcon_meta']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free) by extension 'colcon_meta'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free) by extensions ['ros']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free) by extension 'ros'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free) by extensions ['cmake', 'python']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free) by extension 'cmake'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free) by extension 'python'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free) by extensions ['python_setup_py']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free) by extension 'python_setup_py'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/css) by extensions ['ignore', 'ignore_ament_install']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/css) by extension 'ignore'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/css) by extension 'ignore_ament_install'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/css) by extensions ['colcon_pkg']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/css) by extension 'colcon_pkg'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/css) by extensions ['colcon_meta']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/css) by extension 'colcon_meta'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/css) by extensions ['ros']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/css) by extension 'ros'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/css) by extensions ['cmake', 'python']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/css) by extension 'cmake'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/css) by extension 'python'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/css) by extensions ['python_setup_py']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/css) by extension 'python_setup_py'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/js) by extensions ['ignore', 'ignore_ament_install']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/js) by extension 'ignore'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/js) by extension 'ignore_ament_install'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/js) by extensions ['colcon_pkg']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/js) by extension 'colcon_pkg'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/js) by extensions ['colcon_meta']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/js) by extension 'colcon_meta'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/js) by extensions ['ros']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/js) by extension 'ros'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/js) by extensions ['cmake', 'python']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/js) by extension 'cmake'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/js) by extension 'python'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/js) by extensions ['python_setup_py']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/js) by extension 'python_setup_py'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/less) by extensions ['ignore', 'ignore_ament_install']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/less) by extension 'ignore'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/less) by extension 'ignore_ament_install'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/less) by extensions ['colcon_pkg']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/less) by extension 'colcon_pkg'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/less) by extensions ['colcon_meta']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/less) by extension 'colcon_meta'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/less) by extensions ['ros']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/less) by extension 'ros'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/less) by extensions ['cmake', 'python']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/less) by extension 'cmake'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/less) by extension 'python'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/less) by extensions ['python_setup_py']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/less) by extension 'python_setup_py'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/scss) by extensions ['ignore', 'ignore_ament_install']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/scss) by extension 'ignore'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/scss) by extension 'ignore_ament_install'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/scss) by extensions ['colcon_pkg']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/scss) by extension 'colcon_pkg'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/scss) by extensions ['colcon_meta']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/scss) by extension 'colcon_meta'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/scss) by extensions ['ros']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/scss) by extension 'ros'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/scss) by extensions ['cmake', 'python']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/scss) by extension 'cmake'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/scss) by extension 'python'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/scss) by extensions ['python_setup_py']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/scss) by extension 'python_setup_py'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/sprites) by extensions ['ignore', 'ignore_ament_install']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/sprites) by extension 'ignore'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/sprites) by extension 'ignore_ament_install'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/sprites) by extensions ['colcon_pkg']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/sprites) by extension 'colcon_pkg'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/sprites) by extensions ['colcon_meta']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/sprites) by extension 'colcon_meta'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/sprites) by extensions ['ros']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/sprites) by extension 'ros'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/sprites) by extensions ['cmake', 'python']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/sprites) by extension 'cmake'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/sprites) by extension 'python'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/sprites) by extensions ['python_setup_py']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/sprites) by extension 'python_setup_py'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs) by extensions ['ignore', 'ignore_ament_install']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs) by extension 'ignore'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs) by extension 'ignore_ament_install'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs) by extensions ['colcon_pkg']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs) by extension 'colcon_pkg'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs) by extensions ['colcon_meta']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs) by extension 'colcon_meta'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs) by extensions ['ros']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs) by extension 'ros'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs) by extensions ['cmake', 'python']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs) by extension 'cmake'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs) by extension 'python'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs) by extensions ['python_setup_py']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs) by extension 'python_setup_py'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/brands) by extensions ['ignore', 'ignore_ament_install']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/brands) by extension 'ignore'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/brands) by extension 'ignore_ament_install'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/brands) by extensions ['colcon_pkg']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/brands) by extension 'colcon_pkg'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/brands) by extensions ['colcon_meta']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/brands) by extension 'colcon_meta'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/brands) by extensions ['ros']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/brands) by extension 'ros'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/brands) by extensions ['cmake', 'python']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/brands) by extension 'cmake'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/brands) by extension 'python'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/brands) by extensions ['python_setup_py']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/brands) by extension 'python_setup_py'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/regular) by extensions ['ignore', 'ignore_ament_install']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/regular) by extension 'ignore'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/regular) by extension 'ignore_ament_install'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/regular) by extensions ['colcon_pkg']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/regular) by extension 'colcon_pkg'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/regular) by extensions ['colcon_meta']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/regular) by extension 'colcon_meta'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/regular) by extensions ['ros']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/regular) by extension 'ros'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/regular) by extensions ['cmake', 'python']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/regular) by extension 'cmake'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/regular) by extension 'python'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/regular) by extensions ['python_setup_py']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/regular) by extension 'python_setup_py'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/solid) by extensions ['ignore', 'ignore_ament_install']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/solid) by extension 'ignore'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/solid) by extension 'ignore_ament_install'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/solid) by extensions ['colcon_pkg']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/solid) by extension 'colcon_pkg'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/solid) by extensions ['colcon_meta']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/solid) by extension 'colcon_meta'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/solid) by extensions ['ros']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/solid) by extension 'ros'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/solid) by extensions ['cmake', 'python']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/solid) by extension 'cmake'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/solid) by extension 'python'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/solid) by extensions ['python_setup_py']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/svgs/solid) by extension 'python_setup_py'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/webfonts) by extensions ['ignore', 'ignore_ament_install']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/webfonts) by extension 'ignore'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/webfonts) by extension 'ignore_ament_install'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/webfonts) by extensions ['colcon_pkg']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/webfonts) by extension 'colcon_pkg'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/webfonts) by extensions ['colcon_meta']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/webfonts) by extension 'colcon_meta'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/webfonts) by extensions ['ros']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/webfonts) by extension 'ros'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/webfonts) by extensions ['cmake', 'python']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/webfonts) by extension 'cmake'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/webfonts) by extension 'python'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/webfonts) by extensions ['python_setup_py']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/fontawesome-free/webfonts) by extension 'python_setup_py'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery) by extensions ['ignore', 'ignore_ament_install']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery) by extension 'ignore'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery) by extension 'ignore_ament_install'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery) by extensions ['colcon_pkg']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery) by extension 'colcon_pkg'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery) by extensions ['colcon_meta']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery) by extension 'colcon_meta'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery) by extensions ['ros']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery) by extension 'ros'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery) by extensions ['cmake', 'python']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery) by extension 'cmake'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery) by extension 'python'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery) by extensions ['python_setup_py']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery) by extension 'python_setup_py'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery-easing) by extensions ['ignore', 'ignore_ament_install']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery-easing) by extension 'ignore'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery-easing) by extension 'ignore_ament_install'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery-easing) by extensions ['colcon_pkg']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery-easing) by extension 'colcon_pkg'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery-easing) by extensions ['colcon_meta']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery-easing) by extension 'colcon_meta'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery-easing) by extensions ['ros']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery-easing) by extension 'ros'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery-easing) by extensions ['cmake', 'python']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery-easing) by extension 'cmake'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery-easing) by extension 'python'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery-easing) by extensions ['python_setup_py']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/jquery-easing) by extension 'python_setup_py'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/magnific-popup) by extensions ['ignore', 'ignore_ament_install']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/magnific-popup) by extension 'ignore'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/magnific-popup) by extension 'ignore_ament_install'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/magnific-popup) by extensions ['colcon_pkg']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/magnific-popup) by extension 'colcon_pkg'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/magnific-popup) by extensions ['colcon_meta']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/magnific-popup) by extension 'colcon_meta'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/magnific-popup) by extensions ['ros']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/magnific-popup) by extension 'ros'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/magnific-popup) by extensions ['cmake', 'python']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/magnific-popup) by extension 'cmake'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/magnific-popup) by extension 'python'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/magnific-popup) by extensions ['python_setup_py']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/luis/web_curso_ros/vendor/magnific-popup) by extension 'python_setup_py'
+[1.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
